@@ -98,9 +98,8 @@ def configurar_agentes():
 
 
 
+agente_principal = configurar_agentes()
 while True:
-    agente_principal = configurar_agentes()
-    
     user_id = "user_1"
     query = input("Usuario: ")
     response = agente_principal.call(query, user_id)
