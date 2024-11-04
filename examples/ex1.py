@@ -94,13 +94,12 @@ def configurar_agentes():
         debug=False
     )
     
-    return agente_principal, agente_listin
+    return agente_principal
 
 
 
 while True:
-    agente_principal, agente_listin = configurar_agentes()
-    
+    agente_principal = configurar_agentes()
     
     user_id = "user_1"
     query = input("Usuario: ")
