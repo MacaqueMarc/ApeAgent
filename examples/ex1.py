@@ -97,12 +97,12 @@ def configurar_agentes():
     return agente_principal
 
 
-
-agente_principal = configurar_agentes()
-while True:
-    user_id = "user_1"
-    query = input("Usuario: ")
-    response = agente_principal.call(query, user_id)
-    print(f"Agente: {response}")
-    if query == "exit":
-        break
+if __name__ == "__main__":
+    agente_principal = configurar_agentes()
+    while True:
+        user_id = "user_1"
+        query = input("Usuario: ")
+        response = agente_principal.call(query, user_id)
+        print(f"Agente: {response}")
+        if query == "exit":
+            break
