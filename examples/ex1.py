@@ -104,10 +104,7 @@ while True:
     
     user_id = "user_1"
     query = input("Usuario: ")
-    #response = agente_principal.call(query, user_id)
-    #print(f"Agente: {response}")
-    
-    response2 = agente_listin.call("Juan", user_id)
-    print(f"Agente: {response2}")
+    response = agente_principal.call(query, user_id)
+    print(f"Agente: {response}")
     if query == "exit":
         break
