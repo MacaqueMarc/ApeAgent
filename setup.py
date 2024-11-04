@@ -8,7 +8,7 @@ setup(
     description="A simple framework to manage agents and tool-based functions",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/tu_usuario/apeagent",  # Cambia esto a tu repositorio
+    url="https://github.com/MacaqueMarc/ApeAgent",
     packages=find_packages(),
     install_requires=open("requirements.txt").read().splitlines(),
     classifiers=[
