@@ -1,0 +1,65 @@
+# Environment files
+.env
+*.env
+
+# Python files
+*.py[cod]
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+.Python
+
+# Log files
+*.log
+
+# Editor configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Python build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environment directories
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Caches for MyPy and other linters
+.mypy_cache/
+.pytest_cache/
+.pyre/
+.pylint.d/
+.tox/
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+*.tar
+*.gz
+
+# SQLite database files
+*.sqlite3
+
+# Docker configuration
+docker-compose.override.yml
+
+# macOS files
+.DS_Store
+
+# Installation files
+*.exe
+*.msi
+*.deb
+*.rpm
