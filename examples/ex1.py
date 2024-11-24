@@ -63,7 +63,7 @@ def consulta_listin_telefonico(nombre: str) -> Dict[str, Any]:
 # Configuración de Agentes
 def configurar_agentes():
 
-    # Agente principal con capacidades multifuncionales
+    # Agente secundario con acceso a una tool
     agente_listin = Agent(
         name="Agente_Listin_Telefonico",
         instructions="""
